@@ -1,0 +1,18 @@
+.video-header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+  left: 0%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 25px;
+}
+
+.video-header>* {
+  padding: 10px;
+}

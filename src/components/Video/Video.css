@@ -1,0 +1,21 @@
+
+.video-container {
+  position: relative;
+  width: 100% ;
+  max-width: 600px; /* Adjust the maximum width as needed */
+}
+
+.video-player {
+  width: 100% !important;
+  height: auto;
+  border-radius: 15px;
+}
+
+.mute-button {
+  position: absolute;
+  top: 50%;
+  font-size: 45px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
